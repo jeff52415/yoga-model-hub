@@ -1,0 +1,16 @@
+# debug
+# lib-postprocessing@git+ssh://git@github.com/Cinnamon/lib-postprocessing.git@v1.1.2
+matplotlib
+
+# testing requirements
+pytest
+
+# repo maintenance tooling
+coverage
+black
+flake8
+mypy
+isort
+dvc-gdrive
+ipykernel
+pre-commit

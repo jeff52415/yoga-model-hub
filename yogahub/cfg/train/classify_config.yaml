@@ -1,0 +1,15 @@
+device: "0,1,3"
+label_smooth: 0.1
+lr: 0.00005
+train_path: "Yoga82/yoga_train.txt"
+test_path: "Yoga82/yoga_test.txt"
+drop_path_rate: 0.3
+num_workers: 2
+pin_memory: true
+num_epochs: 120
+batch_size: 12
+weight_decay: 2e-5
+warmup_period: 0.2
+weight_path: "yoga_model/"
+model: "dino2_vit_small"
+pretrained: ""

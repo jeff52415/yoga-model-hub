@@ -1,0 +1,5 @@
+outs:
+- md5: ac289df4cc7838a762b138db0c058a37
+  size: 375391228
+  hash: md5
+  path: dinov2_vitb14.pth

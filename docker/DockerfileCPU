@@ -1,0 +1,27 @@
+# Use an official Python runtime as a parent image
+FROM bitnami/pytorch:latest
+
+# Set the working directory in the container
+WORKDIR /usr/src/app
+
+# Copy the current directory contents into the container at /usr/src/app
+COPY . .
+
+# Install build dependencies and PyTorch CPU
+# RUN pip install --no-cache-dir torch==2.0.0 torchvision==0.15.1 --index-url https://download.pytorch.org/whl/cpu
+
+
+# Install any needed packages specified in setup.py
+RUN pip install --no-cache-dir ."[serve]"
+
+
+# Set environment variables
+ENV HOST=0.0.0.0
+ENV PORT=8000
+ENV RELOAD=False
+
+# Make port 8000 available to the world outside this container
+EXPOSE 8000
+
+# Run main.py when the container launches
+CMD ["python", "main.py"]

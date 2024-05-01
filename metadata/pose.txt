@@ -1,0 +1,82 @@
+Akarna Dhanurasana 1,8,0
+Bharadvaja'S Twist Pose(Bharadvajasana I) 1,5,1
+Boat Pose(Paripurna Navasana) 5,19,2
+Bound Angle Pose(Baddha Konasana) 1,4,3
+Bow Pose(Dhanurasana) 5,19,4
+Bridge Pose(Setu Bandha Sarvangasana) 5,17,5
+Camel Pose(Ustrasana) 5,17,6
+Cat Cow Pose(Marjaryasana) 5,18,7
+Chair Pose(Utkatasana) 0,0,8
+Child Pose(Balasana) 4,14,9
+Cobra Pose(Bhujangasana) 4,14,10
+Cockerel Pose 2,9,11
+Corpse Pose(Savasana) 4,13,12
+Cow Face Pose(Gomukhasana) 1,5,13
+Crane (Crow) Pose(Bakasana) 2,9,14
+Dolphin Plank Pose(Makara Adho Mukha Svanasana) 4,16,15
+Dolphin Pose(Ardha Pincha Mayurasana) 0,1,16
+Downward-Facing Dog Pose(Adho Mukha Svanasana) 0,1,17
+Eagle Pose(Garudasana) 0,0,18
+Eight-Angle Pose(Astavakrasana) 2,10,19
+Extended Puppy Pose(Uttana Shishosana) 4,14,20
+Extended Revolved Side Angle Pose(Utthita Parsvakonasana) 0,2,21
+Extended Revolved Triangle Pose(Utthita Trikonasana) 0,2,22
+Feathered Peacock Pose(Pincha Mayurasana) 3,11,23
+Firefly Pose(Tittibhasana) 2,9,24
+Fish Pose(Matsyasana) 4,13,25
+Four-Limbed Staff Pose(Chaturanga Dandasana) 4,16,26
+Frog Pose(Bhekasana) 4,14,27
+Garland Pose(Malasana) 1,4,28
+Gate Pose(Parighasana) 0,2,29
+Half Lord Of The Fishes Pose(Ardha Matsyendrasana) 1,5,30
+Half Moon Pose(Ardha Chandrasana) 0,2,31
+Handstand Pose(Adho Mukha Vrksasana) 3,11,32
+Happy Baby Pose(Ananda Balasana) 4,13,33
+Head-To-Knee Forward Bend Pose(Janu Sirsasana) 1,7,34
+Heron Pose(Krounchasana) 1,8,35
+Intense Side Stretch Pose(Parsvottanasana) 0,1,36
+Legs-Up-The-Wall Pose(Viparita Karani) 3,11,37
+Locust Pose(Salabhasana) 4,14,38
+Lord Of The Dance Pose(Natarajasana) 0,3,39
+Low Lunge Pose(Anjaneyasana) 0,2,40
+Noose Pose(Pasasana) 1,4,41
+Peacock Pose(Mayurasana) 4,16,42
+Pigeon Pose(Kapotasana) 5,17,43
+Plank Pose(Kumbhakasana) 4,16,44
+Plow Pose(Halasana) 3,12,45
+Pose Dedicated To The Sage Koundinya(Eka Pada Koundinyanasana I And Ii) 2,10,46
+Rajakapotasana 1,8,47
+Reclining Hand-To-Big-Toe Pose(Supta Padangusthasana) 4,13,48
+Revolved Head-To-Knee Pose(Parivrtta Janu Sirsasana) 1,7,49
+Scale Pose(Tolasana) 2,9,50
+Scorpion Pose(Vrischikasana) 3,12,51
+Seated Forward Bend Pose(Paschimottanasana) 1,7,52
+Shoulder-Pressing Pose(Bhujapidasana) 2,9,53
+Side-Reclining Leg Lift Pose(Anantasana) 4,15,54
+Side Crane (Crow) Pose(Parsva Bakasana) 2,10,55
+Side Plank Pose(Vasisthasana) 4,15,56
+Sitting Pose 1 (Normal) 1,4,57
+Split Pose 1,6,58
+Staff Pose(Dandasana) 1,4,59
+Standing Forward Bend Pose(Uttanasana) 0,1,60
+Standing Split Pose(Urdhva Prasarita Eka Padasana) 0,3,61
+Standing Big Toe Hold Pose(Utthita Padangusthasana) 0,3,62
+Supported Headstand Pose(Salamba Sirsasana) 3,11,63
+Supported Shoulderstand Pose(Salamba Sarvangasana) 3,11,64
+Supta Baddha Konasana 4,13,65
+Supta Virasana Vajrasana 4,13,66
+Tortoise Pose 1,7,67
+Tree Pose(Vrksasana) 0,0,68
+Upward Bow (Wheel) Pose(Urdhva Dhanurasana) 5,17,69
+Upward Facing Two-Foot Staff Pose(Dwi Pada Viparita Dandasana) 5,17,70
+Upward Plank Pose(Purvottanasana) 5,17,71
+Virasana(Vajrasana) 1,5,72
+Warrior Iii Pose(Virabhadrasana Iii) 0,3,73
+Warrior Ii Pose(Virabhadrasana Ii) 0,3,74
+Warrior I Pose(Virabhadrasana I) 0,2,75
+Wide-Angle Seated Forward Bend Pose(Upavistha Konasana) 1,6,76
+Wide-Legged Forward Bend Pose(Prasarita Padottanasana) 0,1,77
+Wild Thing Pose(Camatkarasana) 5,17,78
+Wind Relieving Pose(Pawanmuktasana) 4,13,79
+Yogic Sleep Pose 4,13,80
+Viparita Virabhadrasana(Reverse Warrior Pose) 0,2,81

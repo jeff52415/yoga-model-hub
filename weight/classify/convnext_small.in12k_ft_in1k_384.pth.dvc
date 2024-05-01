@@ -1,0 +1,5 @@
+outs:
+- md5: 9c4eea3058564bce475fa9bcf54b48fd
+  size: 201811849
+  hash: md5
+  path: convnext_small.in12k_ft_in1k_384.pth
