@@ -1,0 +1,8 @@
+torchtune
+wandb
+transformers
+peft
+quanto
+accelerate
+bitsandbytes
+langchain-huggingface
