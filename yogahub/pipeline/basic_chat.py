@@ -56,7 +56,7 @@ def generate_query(user_query, sequence):
     prompt = prompt_template.format(**inputs)
 
     response = sequence.invoke(inputs)
-    extract_answer = response[len(prompt):]
+    extract_answer = response[len(prompt) :]
     return extract_answer
 
 
