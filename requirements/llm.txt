@@ -6,3 +6,6 @@ quanto
 accelerate
 bitsandbytes
 langchain-huggingface
+ipywidgets
+langchain
+openai

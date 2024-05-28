@@ -1,7 +1,12 @@
+import logging
+
 import torch
 from peft import PeftModel
 from transformers import (AutoModelForCausalLM, AutoTokenizer,
                           BitsAndBytesConfig)
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 def load_llm_model(
@@ -40,20 +45,24 @@ def load_llm_model(
             model_id,
             quantization_config=quantization_config,
             low_cpu_mem_usage=True,
-            torch_dtype=torch.float16,
+            torch_dtype=torch.bfloat16,
             device_map=device,
         )
     else:
-        model = AutoModelForCausalLM.from_pretrained(model_id, device_map=device)
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id, device_map=device, torch_dtype=torch.bfloat16
+        )
 
     if peft_model:
         if peft_folder is None:
             raise ValueError("PEFT model folder path is required.")
-        model = PeftModel.from_pretrained(model, peft_folder)
+        model = PeftModel.from_pretrained(
+            model, peft_folder, device_map={"": "cuda"}, torch_dtype=torch.bfloat16
+        )
+        logger.info(f"Loaded PEFT model from {peft_folder}")
 
+    model.eval()
     tokenizer = AutoTokenizer.from_pretrained(model_id)
-    # Set pad token to eos token for LLM models
-    tokenizer.pad_token_id = tokenizer.eos_token_id
 
     return model, tokenizer
 
@@ -72,10 +81,10 @@ def save_model_local(model, tokenizer, save_path: str):
 
 
 # Example usage
-model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-quantization = True  # Set this to False if quantization is not needed
-device = "auto"  # Set this to 'cpu' or 'cuda' if specific device is needed
+# model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
+# quantization = True  # Set this to False if quantization is not needed
+# device = "auto"  # Set this to 'cpu' or 'cuda' if specific device is needed
 
-model, tokenizer = load_llm_model(model_id, quantization, device)
-save_path = "/tmp/llmav3/"
-save_model_local(model, tokenizer, save_path)
+# model, tokenizer = load_llm_model(model_id, quantization, device)
+# save_path = "/tmp/llmav3/"
+# save_model_local(model, tokenizer, save_path)
