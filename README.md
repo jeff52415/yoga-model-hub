@@ -1,19 +1,20 @@
 # Yoga Model Hub
 
-Welcome to the Yoga Model Hub! This repository is dedicated to providing machine learning models tailored for yoga-related applications. As of now, we offer a yoga pose classification model, but we're continually expanding. Stay tuned for more models and features in the near future!
+Welcome to the Yoga Model Hub! This repository is dedicated to providing machine learning models tailored for yoga-related applications. As of now, we offer a yoga pose classification model and guidance for LLM fine-tuning. We're continually expanding, so stay tuned for more models and features in the near future!
 
 ## Current Features
 
 - **Yoga Pose Classification Model**: Classify up to 82 different types of yoga poses. Outputs results in both English and Chinese.
+- **Llama 3 Fine-Tune with Your Own Data**: Comprehensive guidance for fine-tuning Llama 3 using Torchtune, including detailed instructions and code examples. Please refer to the [fine-tuning guide](docs/fine_tune_llm.md).
 
-## Setup
+## Setup (Below for classification model)
 
 1. Clone this repository to your local machine.
 2. Navigate to the root directory of the repository.
 3. To set up the environment, run the following command:
 
 ```
-pip install ."[serve]"
+pip install ."[serve,llm]"
 ```
 
 ## Obtaining Model Weights

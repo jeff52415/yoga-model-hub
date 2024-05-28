@@ -30,5 +30,6 @@ setup(
         "compression": list_reqs(fname="compression.txt"),
         "torch": list_reqs(fname="torch.txt"),
         "tensorflow": list_reqs(fname="tensorflow.txt"),
+        "llm": list_reqs(fname="llm.txt"),
     },
 )
