@@ -52,6 +52,7 @@ def default_pipeline(
         top_p=top_k,
         eos_token_id=terminators,
         pad_token_id=tokenizer.eos_token_id,
+        use_cache=True,
         **generation_kwargs,
     )
 
